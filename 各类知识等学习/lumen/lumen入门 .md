@@ -14,5 +14,3 @@ php -S localhost:8000 -t public
 
 
 
-/usr/local/nginx/sbin/nginx
-/usr/local/php/sbin/php-fpm
