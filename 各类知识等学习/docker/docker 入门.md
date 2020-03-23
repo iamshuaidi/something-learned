@@ -370,6 +370,14 @@ $ docker run -it --rm -h host_ubuntu  --dns=114.114.114.114 --dns-search=test.co
 
 **--dns-search=DOMAIN**： 设定容器的搜索域，当设定搜索域为 .example.com 时，在搜索一个名为 host 的主机时，DNS 不仅搜索 host，还会搜索 host.example.com。
 
+##### 查看容器的IP
+
+```
+docker inspect 容器名字|grep IPAddress
+```
+
+
+
 ### Dockerfile 构建
 
 ##### 文件准备

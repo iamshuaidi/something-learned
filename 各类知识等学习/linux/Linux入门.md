@@ -20,3 +20,8 @@ kill -9 进程PID
 rpm -ql name
 ```
 
+### 网络
+
+##### 检测端口的命令
+
+Telnet ip port
