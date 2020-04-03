@@ -200,3 +200,10 @@ http {
 
 ```
 
+### 指定配置文件
+
+```
+/usr/local/nginx/sbin/nginx  -c  /usr/local/nginx/conf/nginx.conf
+```
+
+  
